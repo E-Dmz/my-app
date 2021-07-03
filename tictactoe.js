@@ -121,7 +121,8 @@ class Game extends React.Component {
 
 // ========================================
 
-ReactDOM.render(<Game />, document.getElementById("tictactoe_container"));
+const domContainer = document.querySelector('#tictactoe_container');
+ReactDOM.render(<Game />, domContainer));
 
 function calculateWinner(squares) {
   const lines = [
