@@ -142,6 +142,3 @@ function calculateWinner(squares) {
   }
   return null;
 }
-
-// const domContainer = document.querySelector('#tictactoe_container');
-// ReactDOM.render(e(LikeButton), domContainer);
